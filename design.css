@@ -1,0 +1,313 @@
+
+.body{
+    background-image: linear-gradient(
+  180deg,
+  hsl(23deg 77% 61%) 0%,
+  hsl(20deg 78% 59%) 17%,
+  hsl(18deg 79% 56%) 30%,
+  hsl(15deg 81% 54%) 39%,
+  hsl(13deg 82% 51%) 47%,
+  hsl(10deg 84% 49%) 54%,
+  hsl(8deg 86% 46%) 61%,
+  hsl(5deg 86% 44%) 68%,
+  hsl(3deg 89% 41%) 78%,
+  hsl(0deg 90% 38%) 100%
+);
+background-attachment: fixed;
+}
+
+.container h1{
+
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(rgba(233, 65, 65, 0.982), brown);
+    border-radius: 55px;
+    border: 5px rgb(5, 111, 5) outset;
+    height: 100%;
+    width: 80%;
+    color: rgba(255, 255, 0, 0.669);
+    text-shadow: 1px 1px 1px grey;
+    box-shadow: 2px 2px 2px rgb(3, 3, 3);
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.Aboutme{
+    margin: auto;
+    position: relative;
+    top: 20px;
+    background-color: rgb(240, 240, 240);
+    border: 3px rgb(255, 255, 255) solid;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.Aboutme h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.Aboutme p{
+    font-size: 15px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poor Story', cursive;
+}
+
+.Language{
+    margin: auto;
+    position: relative;
+    top: 50px;
+    background-color: whitesmoke;
+    border: 3px rgb(255, 255, 255) solid;
+    border-radius: 20px;
+    width: 65%;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+
+.Language Dt{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Language dd{
+    font-size: 17px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.last{
+    padding-bottom: 10px;
+}
+
+/*roblox scripting*/
+
+.container2 h1{
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(rgba(233, 65, 65, 0.982), brown);
+    border-radius: 55px;
+    border: 5px rgb(5, 111, 5) solid;
+    height: 100%;
+    width: 90%;
+    color: rgba(255, 255, 0, 0.669);
+    text-shadow: 1px 1px 1px grey;
+    font-family: 'Noto Sans Mono', monospace;
+
+}
+
+.info {
+    border: 5px black solid;
+    margin-top: 23%;
+    padding-top: 20px;
+    background-color: whitesmoke;
+    border: 3px rgb(255, 255, 255) solid;
+    border-radius: 20px;
+}
+
+.text {
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 2px;
+}
+
+.item1{
+   border-radius: 50px;
+   width: 150px;
+   padding-left: 5px;
+   padding-top: 20px;
+   padding-right: 1px;
+}
+
+/*Laptop*/
+
+@media screen and (min-width: 1220px) {
+
+    .container h1{
+
+        margin: auto;
+        text-align: center;
+        background: linear-gradient(rgba(233, 65, 65, 0.982), brown);
+        border-radius: 55px;
+        border: 5px rgb(5, 111, 5) outset;
+        height: 100%;
+        width: 50%;
+        font-size: 35px;
+        color: rgba(255, 255, 0, 0.669);
+        text-shadow: 1px 1px 1px grey;
+        box-shadow: 4px 4px 4px rgb(3, 3, 3);
+
+    
+    }
+
+    .Aboutme{
+        position: relative;
+        top: 50px;
+        right: 23%;
+        background-color: rgb(240, 240, 240);
+        border: 3px rgb(255, 255, 255) solid;
+        border-radius: 20px;
+        width: 33%;
+    }
+    
+    .Aboutme h3{
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .Aboutme p{
+        font-size: 25px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .Language{
+        float: right;
+        position: absolute;
+        top: 200px;
+        left: 55%;
+        background-color: whitesmoke;
+        border: 3px rgb(255, 255, 255) solid;
+        border-radius: 20px;
+        width: 35%;
+    }
+
+    .Language Dt{
+        padding-top: 20px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .Language dd{
+        font-size: 30px;
+    }
+
+    .last{
+        padding-bottom: 20px;
+    }
+
+    /*roblox scripting*/
+
+.container2 h1{
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(rgba(233, 65, 65, 0.982), brown);
+    border-radius: 55px;
+    border: 5px rgb(5, 111, 5) solid;
+    height: 100%;
+    width: 45%;
+    color: rgba(255, 255, 0, 0.669);
+    text-shadow: 1px 1px 1px grey;
+    font-family: 'Noto Sans Mono', monospace;
+
+}
+
+.info {
+    border: 5px black solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+    border: 3px rgb(255, 255, 255) solid;
+    border-radius: 20px;
+    width: 65%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+.text {
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.item1{
+    width: 300px;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-right: 1px;
+ }
+
+ a:hover{
+    background-color: gray;
+ }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .container h1{
+
+        margin: auto;
+        text-align: center;
+        background: linear-gradient(rgba(233, 65, 65, 0.982), brown);
+        border-radius: 55px;
+        border: 5px rgb(5, 111, 5) outset;
+        height: 100%;
+        width: 50%;
+        font-size: 35px;
+        color: rgba(255, 255, 0, 0.669);
+    text-shadow: 1px 1px 1px grey;
+    box-shadow: 4px 4px 4px rgb(3, 3, 3);
+
+    
+    }
+
+    .Aboutme{
+        position: relative;
+        top: 50px;
+        right: 170px;
+        background-color: rgb(240, 240, 240);
+        border: 3px rgb(255, 255, 255) solid;
+        border-radius: 20px;
+        width: 43%;
+    }
+    
+    .Aboutme h3{
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .Aboutme p{
+        font-size: 20px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .Language{
+        float: right;
+        position: absolute;
+        top: 180px;
+        left: 415px;
+        background-color: whitesmoke;
+        border: 3px rgb(255, 255, 255) solid;
+        border-radius: 20px;
+        width: 40%;
+    }
+
+    .Language Dt{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .Language dd{
+        font-size: 20px;
+    }
+
+    .last{
+        padding-bottom: 10px;
+    }
+
+    
+    
+}
